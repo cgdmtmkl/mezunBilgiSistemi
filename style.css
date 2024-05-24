@@ -1,0 +1,108 @@
+.girisyap{
+    margin: auto;
+}
+.girisYapSection{
+    background-image: url(arkaplan.jpg);
+    width: 100%;
+    height: 575px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -8px;
+}
+.girisyapForm{
+    position: relative;
+    top: 135px;
+}
+.sectionIndex{
+    margin-top: -8px;
+    background-image: url(arkaplan.jpg);
+    width: 100%;
+    height: 800px;
+}
+.footerA{
+    color: #fff;
+    text-decoration: none;
+}
+.footerLi{
+    list-style-type: none;
+}
+.hakkimizdaResim{
+    width: 330px;
+    height: 250px;
+}
+.sectionHakkimizda{
+    background-color: #eaeaea;
+    margin-top: -8px;
+    padding: 18px;
+}
+.hakkimizdaSosyal{
+    list-style-type: none;
+    float: left;
+}
+.sectionIletisim{
+    margin-top: -8px;
+    background-color: #eaeaea;
+}
+.sectionRapor{
+    background-image: url(arkaplan.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -8px;
+    display: flex;
+    flex-direction: row; /* Değişiklik: Öğeleri yatay olarak sırala */
+    justify-content: space-around;
+}
+.sectionRapor > div{
+    width: 45%;
+}
+.sectionRapor ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sectionRapor h3{
+    padding-top: 20px;
+    color: #86E5FF;
+    text-align: center;
+}
+.raporLi{
+    
+    list-style-type: none;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex; /* Değişiklik: Madde işareti ve butonları yatay olarak hizala */
+    align-items: center;
+}
+.raporLi::before{
+    display: block;
+    margin: 0; /* Varsayılan madde kenar boşluklarını kaldırır */
+    padding: 0;
+
+    content: "\27A4";
+    color: #86E5FF;
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+.raporLi a {
+    width: 100%; /* Değişiklik: Butonların tam genişlikte olması */
+    height: 40px; /* Değişiklik: Butonların yüksekliğini ayarla */
+    display: flex; /* Değişiklik: Metni ve simgeyi dikey olarak hizala */
+    align-items: center; /* Değişiklik: Dikeyde ortala */
+    justify-content: center; /* Değişiklik: Yatayda ortala */
+    background-color: #f0ad4e; /* Değişiklik: Buton arka plan rengi */
+    border: none; /* Değişiklik: Buton kenarlık yok */
+    color: white; /* Değişiklik: Buton metin rengi */
+    text-decoration: none; /* Değişiklik: Metin altı çizgi yok */
+    border-radius: 5px; /* Değişiklik: Buton köşelerini yuvarla */
+    transition: background-color 0.3s ease; /* Değişiklik: Düğme rengi geçiş efekti */
+}
+.raporLi a:hover {
+    background-color: #ee9b00; /* Değişiklik: Üzerine gelindiğinde buton arka plan rengi */
+}
+#Tab1 form{
+    position: relative;
+    background-position: center center;
+}
